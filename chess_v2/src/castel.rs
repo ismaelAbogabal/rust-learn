@@ -20,6 +20,7 @@ impl Castel {
         }
     }
 
+    // TODO: this is todo commit please fix it
     pub fn from_rook(from: usize) -> Self {
         match from {
             7 => Castel::WK,
